@@ -8,7 +8,7 @@ int main() {
         if ( i % 2 == 0  ) {
             cout<< i<<"\n";//imprimir numeros pares verticalmente
         }
-      i=i+1;
+        i=i+1;
     }
-return 0;
+    return 0;
 }

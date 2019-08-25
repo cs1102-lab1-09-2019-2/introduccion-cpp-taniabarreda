@@ -9,5 +9,4 @@ int main() {
     cin>>altura;
     float area = base*altura;//calcular el area
     cout<<"El area del triangulo es: "<<area<<"\n";
-
 }

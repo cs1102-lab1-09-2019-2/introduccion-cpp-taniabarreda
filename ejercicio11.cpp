@@ -1,16 +1,24 @@
+#include <iostream>
+#include <assert.h>
+#include<string>
 
 bool esPalindromo(int n) {
     bool palindromo = true;
     std::string s = std::to_string(n);
     int len = s.length();
     for (int i = 0; i < len; i++) {
-        if (s[i] != s[len-i-1]) {
+        if (s[i] != s[len-i-1]){
             palindromo = false;
+            //return false;
             break;
         }
+        else{
+            palindromo = true;
+        }
     }
-
+    return palindromo;
 }
+
 
 int main() {
 

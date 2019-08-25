@@ -4,11 +4,13 @@ using std::cout;
 int main() {
     auto i = 0;
     // Mostrar los numeros del 0 al 4
-    while (i < 5 ) {
-        cout<< i <<"\n";
-        i=i+1;
+
+    while (i < 5) {
+        cout << i << "\n";
+        i++;
 
     }
 }
+
 
 
